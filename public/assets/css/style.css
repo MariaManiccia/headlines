@@ -21,3 +21,7 @@ body {
 #scrape {
     margin: 8px 0px;
 }
+
+#navbar{
+    float: right;
+}
