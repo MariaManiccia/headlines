@@ -1,0 +1,23 @@
+body {
+    /*Background*/
+    height: 100%;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+  }
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
