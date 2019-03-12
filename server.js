@@ -113,7 +113,7 @@ app.get('/scrape', (req, res) => {
       Article.create(result)
         .then((dbArticle) => {
           // View the added result in the console
-          console.log(dbArticle);
+          console.log(Article);
         })
         .catch((err) => {
           // If an error occurred, log it

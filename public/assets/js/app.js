@@ -11,7 +11,7 @@ $('#scrape').on('click', () => {
     method: 'GET',
     url: '/scrape',
   }).done((data) => {
-    console.log(data);
+    // console.log(data);
     window.location = '/';
   });
 });
